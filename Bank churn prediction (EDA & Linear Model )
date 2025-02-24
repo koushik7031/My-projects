@@ -1,0 +1,59 @@
+Bank Churn Prediction - EDA & Logistic Regression
+
+Overview
+
+This project involves an in-depth Exploratory Data Analysis (EDA) on a bank customer dataset to understand the factors influencing customer churn. After the analysis, a Logistic Regression Model is built to predict churn probabilities.
+
+Dataset
+
+The dataset contains various customer attributes, including:
+
+Demographics: Age, gender, number of dependents, etc.
+
+Account Information: Account balance, tenure, number of products, etc.
+
+Behavioral Indicators: Transaction history, last transaction date, etc.
+
+Churn Status: Whether the customer churned (1) or remained (0).
+
+Project Workflow
+
+Data Preprocessing:
+
+Handling missing values (e.g., dependent and city columns)
+
+Feature engineering (extracting date-based features)
+
+Encoding categorical variables
+
+Exploratory Data Analysis (EDA):
+
+Univariate and Bivariate analysis
+
+Churn rate distribution
+
+Correlation heatmaps & feature importance
+
+Customer segmentation based on behavior
+
+Model Building - Logistic Regression:
+
+Train-test split (e.g., 80-20 ratio)
+
+Feature scaling (Standardization)
+
+Model training and evaluation using metrics like Accuracy, Precision, Recall, and AUC-ROC
+
+Results & Insights
+
+Key drivers of churn include tenure, number of products, and account balance.
+
+Customers with multiple products and higher engagement are less likely to churn.
+
+The Logistic Regression model achieves a good balance of precision and recall.
+
+Technologies Used
+
+Python (pandas, NumPy, scikit-learn, matplotlib, seaborn)
+
+Jupyter Notebook
